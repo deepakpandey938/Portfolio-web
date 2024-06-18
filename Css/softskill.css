@@ -1,0 +1,102 @@
+.container-third-two{
+    width: 50%;
+    height: 60vh;
+    margin-top: 175px;
+    margin-left: 40px;
+    list-style: none;
+}
+.container-wraper-box{
+    display: flex;
+    flex-direction: row;
+}
+.skill h1{
+    text-align: center;
+}
+
+.skill h3{
+    margin: 5px;
+    font-weight: 100;
+    font-size:22px
+}
+.skill li{
+ margin: 20px 0px;
+ padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgb(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px,3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-sizing: 0 14px 28px rgba(0,0,0,0.25),0 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1.0)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.Time-management{
+    width: 75%;
+    animation:  Time-management 3s;
+}
+.Leadership{
+    width: 60%;
+    animation: Leadership 3s;
+}
+.Creativity{
+    width: 80%;
+    animation: Creativity 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes Time-management{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes Leadership{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes Creativity{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
